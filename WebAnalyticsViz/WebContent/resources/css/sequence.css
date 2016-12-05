@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+#main {
+  float: left;
+  width: 750px;
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+}
+
+#sequence {
+  width: 600px;
+  height: 70px;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+  overflow-y: auto;
+height: 700px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+    width: 750px;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percentage {
+  font-size: 2.5em;
+}
+#test
+{
+	position: absolute;
+	margin-left: 1000px;
+	border: 1px solid;
+}
+	
+#tableContainer
+{
+	
+	height: 559px;
+	width: 90%;
+	position: absolute;
+	margin-top: 820px;
+	margin-left: 100px;
+	margin-right:100px;
+	border: 1px solid;
+	
+}
+
+#slider
+{
+	position: absolute;
+	margin-top: 720px;
+	margin-left: 100px;
+	
+}
